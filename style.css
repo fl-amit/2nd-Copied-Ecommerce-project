@@ -86,6 +86,11 @@ nav {
 }
 /* navbar ends here */
 
+/* header starts here  */
+main {
+  height: 100vh;
+  text-align: center;
+}
 /* footer starts here  */
 .footer {
   min-height: 10vh;
@@ -120,5 +125,11 @@ nav {
     gap: 1rem;
     padding: 1rem 0;
   }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 600px) {
 }
 /* responsiveness ends here */
