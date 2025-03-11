@@ -129,8 +129,22 @@ nav {
 
 /* header starts here  */
 main {
-  height: 100vh;
-  text-align: center;
+  padding: 4rem 0;
+  height: 80vh;
+}
+
+.sidebar {
+  flex: 1;
+  padding: var(--padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+  gap: 1rem;
+}
+
+.main-content {
+  flex: 3;
 }
 /* footer starts here  */
 .footer {
@@ -161,10 +175,14 @@ main {
   .hidden {
     display: none;
   }
-  .flex-space-around {
+  .flex-space-around,
+  .flex-center {
     flex-direction: column;
     gap: 1rem;
     padding: 1rem 0;
+  }
+  .header {
+    height: 100vh;
   }
 }
 

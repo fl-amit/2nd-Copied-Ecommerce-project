@@ -85,8 +85,118 @@
 
     <!-- header ends here  -->
 
-    <main>
-      <h1>Home page</h1>
+    <main class="flex-center">
+      <div class="sidebar">
+        <section class="categories-section">
+          <h3 class="section-title">Categories</h3>
+          <ul class="list">
+            <li class="list__item">
+              <label for="telephone">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="telephone"
+                  value="telephones"
+                />
+                Telephones
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="tablets">
+                <input type="checkbox" name="" id="tablets" value="tablets" />
+                Tablets
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="telivision">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="telivision"
+                  value="telivision"
+                />
+                Telivision
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="computer">
+                <input type="checkbox" name="" id="computer" value="computer" />
+                Computer
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="headphone">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="headphone"
+                  value="headphone"
+                />
+                Headphone
+              </label>
+            </li>
+          </ul>
+        </section>
+        <section class="price-section">
+          <h3 class="section-title">Price Range</h3>
+          <ul class="list">
+            <li class="list__item">
+              <label for="price1">
+                <input type="radio" name="price" id="price1" value="[0,20]" />
+                $0-20$
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="price2">
+                <input type="radio" name="price" id="price2" value="[21,50]" />
+                $21-50$
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="price3">
+                <input type="radio" name="price" id="price3" value="[51,100]" />
+                $51-100$
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="price4">
+                <input
+                  type="radio"
+                  name="price"
+                  id="price4"
+                  value="[101,300]"
+                />
+                $101-300$
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="price5">
+                <input type="radio" name="price" id="price5" value="[501]" />
+                $501+
+              </label>
+            </li>
+          </ul>
+        </section>
+        <section class="shipping-section">
+          <h3 class="section-title">Shipping Options</h3>
+          <ul class="list">
+            <li class="list__item">
+              <label for="free">
+                <input type="radio" name="shipping" id="free" value="free" />
+                Free
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="paid">
+                <input type="radio" name="shipping" id="paid" value="paid" />
+                Paid
+              </label>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="main-content">main content</div>
     </main>
 
     <!-- footer starts here -->
