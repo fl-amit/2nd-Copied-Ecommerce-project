@@ -127,10 +127,10 @@ nav {
 }
 /* header ends here  */
 
-/* header starts here  */
+/* main starts here  */
 main {
   padding: 4rem 0;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .sidebar {
@@ -145,7 +145,22 @@ main {
 
 .main-content {
   flex: 3;
+  padding: ;
 }
+
+.actions__sort select {
+  padding: var(--padding);
+}
+.actions__search input {
+  padding: var(--padding);
+  width: 15rem;
+}
+.actions__search button {
+  margin-left: -0.3rem;
+  border: 1px solid;
+  padding: 0.55rem;
+}
+
 /* footer starts here  */
 .footer {
   min-height: 10vh;
