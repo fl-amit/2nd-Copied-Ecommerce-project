@@ -172,7 +172,7 @@ main {
 
 .main-content {
   flex: 3;
-  padding: ;
+  padding: var(--padding);
 }
 
 .actions__sort select {
@@ -210,6 +210,30 @@ main {
 }
 .learn-more {
   color: blue;
+}
+.product__price {
+  font-weight: bold;
+}
+.product__rating {
+  font-weight: bold;
+}
+
+.product {
+  position: relative;
+}
+.badge {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+.hr-design {
+  margin: 0.5rem 0;
 }
 /* footer starts here  */
 .footer {
