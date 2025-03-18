@@ -377,7 +377,7 @@ main {
 textarea {
   flex: 0.9;
   padding: var(--padding);
-  border: 1px solid;
+  border: 2px solid;
 }
 .form-control textarea {
   resize: none;
@@ -389,7 +389,8 @@ textarea {
 .contact-btn {
   width: 30%;
 }
-.register {
+.register,
+.login {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -397,7 +398,8 @@ textarea {
   gap: 3rem;
   min-height: 60vh;
 }
-.register .card {
+.register .card,
+.login .card {
   width: 45rem;
 }
 /* Registration ends here  */
@@ -454,6 +456,20 @@ textarea {
   .cart__payment {
     width: 92%;
   }
+  .form {
+    width: 100%;
+    gap: 0;
+  }
+  .form-control {
+    flex-direction: row;
+    width: 100%;
+    gap: 0;
+  }
+
+  .register .card,
+  .login .card {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -461,6 +477,23 @@ textarea {
     flex-direction: column;
     gap: 1rem;
     padding: 1rem 0;
+  }
+
+  .form {
+    width: 100%;
+    gap: 0;
+  }
+  .form-control {
+    width: 100%;
+    gap: 0;
+  }
+  .form-control input,
+  textarea {
+    width: 80%;
+  }
+  .register .card,
+  .login .card {
+    width: 90%;
   }
 }
 
