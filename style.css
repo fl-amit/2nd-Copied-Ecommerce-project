@@ -335,6 +335,34 @@ main {
 }
 /* cart ends here  */
 
+/* profile starts here  */
+.profile {
+  flex-direction: column;
+  gap: 2rem;
+}
+.profile .card {
+  width: 30rem;
+}
+.profile h2 {
+  font-size: 2rem;
+}
+.profile__description {
+  flex-direction: column;
+  gap: 1rem;
+}
+.profile__description h3 {
+  font-size: 1.5rem;
+}
+.profile__description-img {
+  width: 15vw;
+  border-radius: 50%;
+  border: 0.1rem solid;
+}
+.profile__actions button {
+  background-color: transparent;
+}
+/* profile ends here  */
+
 /* main ends here  */
 
 /* footer starts here  */
