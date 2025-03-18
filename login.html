@@ -61,7 +61,30 @@
     <!-- nav starts here -->
 
     <main>
-      <h1>This is login page</h1>
+      <section class="login">
+        <h2 class="section-title flex-center">User Login</h2>
+        <div class="card">
+          <form class="form">
+            <div class="form-control flex-center">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                autocomplete="email"
+              />
+            </div>
+            <div class="form-control flex-center">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required />
+            </div>
+            <div class="form-control flex-center form-btn-field">
+              <button type="submit" class="btn contact-btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- footer starts here -->
