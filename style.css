@@ -69,6 +69,9 @@ img {
 .red {
   background-color: red;
 }
+.text-center {
+  text-align: center;
+}
 /* reset code and common ends here */
 
 /* navbar starts here */
@@ -377,7 +380,7 @@ main {
 textarea {
   flex: 0.9;
   padding: var(--padding);
-  border: 2px solid;
+  border: 1px solid;
 }
 .form-control textarea {
   resize: none;
@@ -403,6 +406,24 @@ textarea {
   width: 45rem;
 }
 /* Registration ends here  */
+
+/* contact starts here  */
+.contact-section {
+  min-height: 52vh;
+  padding: var(--padding);
+}
+.contact-container {
+  margin-top: 5rem;
+}
+.contact-address {
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+}
+.contact__map {
+  width: 80%;
+}
+/* contact ends here  */
 
 /* main ends here  */
 
@@ -463,12 +484,14 @@ textarea {
   .form-control {
     flex-direction: row;
     width: 100%;
-    gap: 0;
   }
 
   .register .card,
   .login .card {
     width: 90%;
+  }
+  .contact-address {
+    width: 100%;
   }
 }
 
@@ -481,11 +504,9 @@ textarea {
 
   .form {
     width: 100%;
-    gap: 0;
   }
   .form-control {
     width: 100%;
-    gap: 0;
   }
   .form-control input,
   textarea {

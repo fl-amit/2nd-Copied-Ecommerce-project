@@ -61,7 +61,58 @@
     <!-- nav starts here -->
 
     <main>
-      <h1>This is contact page</h1>
+      <section class="contact-section">
+        <h2 class="section-title text-center">Contact Us</h2>
+        <div class="contact-container flex-center">
+          <form class="form card">
+            <div class="form-control flex-center">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                autocomplete="name"
+              />
+            </div>
+            <div class="form-control flex-center">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                autocomplete="email"
+              />
+            </div>
+            <div class="form-control flex-center">
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="form-control flex-center form-btn-field">
+              <button type="submit" class="btn contact-btn">Submit</button>
+            </div>
+          </form>
+
+          <div class="contact-address flex-space-around">
+            <address>
+              <h4>Address:</h4>
+              <p>New Elephant Road</p>
+              <br />
+              <span>Call: </span>
+              <a href="tel:+8801988776654">+880 198 877 6654</a>
+            </address>
+            <iframe
+              class="contact__map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2659455497205!2d90.38428947413266!3d23.737893978678944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8c65ef504c7%3A0x6052d37a22d4ddf2!2sElephant%20Rd%2C%20Dhaka%201205!5e0!3m2!1sen!2sbd!4v1742360212944!5m2!1sen!2sbd"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- footer starts here -->
