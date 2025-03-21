@@ -197,13 +197,13 @@ main {
 }
 .products {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, 18rem);
+  justify-content: center;
+  gap: 1rem;
   padding: 2rem 0;
 }
 .product {
   position: relative;
-  width: 18rem; /* added by me  */
 }
 .badge {
   background-color: green;
@@ -465,13 +465,13 @@ textarea {
   .header {
     height: 100vh;
   }
-  .products {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 
   .product-main {
     flex-direction: column;
     padding: 2rem;
+  }
+  .main-content {
+    width: 100%;
   }
   .cart__items,
   .cart__payment {
@@ -522,9 +522,6 @@ textarea {
   .product-details__img {
     height: 16rem;
     width: 24rem;
-  }
-  .products {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 /* responsiveness ends here */
